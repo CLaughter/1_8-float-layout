@@ -1,0 +1,72 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+/* 
+1. Start by coloring all the boxes so you can see where all the divs are
+2. Make text white, then rearrange the 3 sections occupying 1/3 of page each
+3. Use the CSS property "float" to line them next to each other. Float takes an element from where it normally falls in the layout and moves it to the left or right most edge of it's container and allows al the following elements to flow around it  i.e. text flowing around a picture
+4. 
+ */
+header {
+  background-color: #ccc;
+  padding: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section {
+  background-color: #eee;
+  padding: 180px;
+}
+
+#left {
+  background-color: #666;
+  padding: 30px;
+  color: white;
+  width: 33%;
+  float: left;
+}
+
+#middle {
+  background-color: #888;
+  padding: 30px;
+  color: white;
+  width: 33%;
+  float: left;
+}
+
+#right {
+  background-color: #666;
+  padding: 30px;
+  color: white;
+  width: 33%;
+  float: left;
+}
+
+#full {
+  background-color: #eee;
+}
+
+#division {
+  background-color: #6ea3da;
+}
+
+aside {
+  background-color: #fff;
+  width: 350px;
+  height: 350px
+}
+
+footer {
+  background-color: #ccc;
+  padding: 30px;
+}
